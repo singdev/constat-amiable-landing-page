@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.logo {
+    width: 20%;
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.last-update {
+    padding: 16px;
+    font-size: 14px;
+}
+
+.button {
+    display: block;
+    padding: 10px 20px;
+    color: white;
+    background-color: #005b9f;
+    text-decoration: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+
+.fa-android {
+    color: #3DDC84;
+}
+
+
+.last-update * {
+    padding: 8px;
+    font-weight: normal;
+}
+
+.last-update em {
+    color: #777777;
+}
+
+h1 {
+    text-align: center;
+    color: #0288d1;
+    font-size: 18px;
+}
